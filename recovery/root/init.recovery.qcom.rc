@@ -1,3 +1,5 @@
+import init.qcom.power.rc
+
 on init
     chmod 0660 /dev/qseecom
     chown system drmrpc /dev/qseecom

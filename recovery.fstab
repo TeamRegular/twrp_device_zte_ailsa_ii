@@ -10,8 +10,6 @@
 /recovery		emmc	/dev/block/bootdevice/by-name/recovery						flags=backup=1
 /system			ext4	/dev/block/bootdevice/by-name/system
 /system_image	emmc	/dev/block/bootdevice/by-name/system
-/efs1			emmc	/dev/block/bootdevice/by-name/modemst1						flags=backup=1;display=EFS
-/efs2			emmc	/dev/block/bootdevice/by-name/modemst2						flags=backup=1;subpartitionof=/efs1
 
 # Removable storage
 /external_sd		vfat	/dev/block/mmcblk0p1						/dev/block/mmcblk0	flags=storage;wipeingui;removable;encryptable=footer
